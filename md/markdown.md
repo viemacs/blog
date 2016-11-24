@@ -108,7 +108,27 @@ These are examples of referenced links:
 [SO]: http://stackoverflow.com/ "stack overflow"
 ```
 
-![](https://github.com/fluidicon.png)
+### Image
+The format of image is like the link, just with an extra leading '!'.
+![](https://github.com/fluidicon.png "Octocat")
 ```
-![](https://github.com/fluidicon.png)
+![](https://github.com/fluidicon.png "Octocat")
 ```
+
+### Code
+Backquote '`' is used to quote code, and more backquotes can wrap less backquotes inside it.
+Code in line `function(){}`: `` `function(){}` ``.
+And ``let foo = `Das ist ${value}` ``: ``` ``let foo = `Das ist ${value}` `` ```.
+
+Code block:
+```
+def foo():
+    pass
+```
+Markdown source:
+````
+```
+def foo():
+    pass
+```
+````
