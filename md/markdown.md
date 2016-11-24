@@ -128,9 +128,7 @@ def foo():
     pass
 ```
 Markdown source:
-\`\`\`
-```
-def foo():
-    pass
-```
-\`\`\`
+>\`\`\`
+>def foo():
+>    pass
+>\`\`\`
