@@ -22,6 +22,9 @@ A Second Level Header
 ###### Level 6 Header
 ```
 
+### Instruction
+Generally, you don't need to deal with < and & in markdown as in HTML. They will be escaped automatically if they are in a HTML tag or an escaped character.
+
 ### Paragraphs and quotes.
 
 This is another paragraph. Empty line (empty or only spaces and tabs) devides paragraphs.
@@ -33,6 +36,20 @@ This is another paragraph. Empty line (empty or only spaces and tabs) devides pa
 > This is the second paragraph in the blockquote.
 >
 > ### This is an H3 in a blockquote
+
+> A '>' before the first
+line will also work fine.
+
+```
+> This is a blockquote.
+> 
+> This is the second paragraph in the blockquote.
+>
+> ### This is an H3 in a blockquote
+
+> A '>' before the first
+line will also work fine.
+```
 
 ### Emphasize
 
