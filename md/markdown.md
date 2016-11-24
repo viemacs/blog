@@ -37,8 +37,9 @@ This is another paragraph. Empty line (empty or only spaces and tabs) devides pa
 >
 > ### This is an H3 in a blockquote
 
-> A '>' before the first
+> A single '>' leading the first
 line will also work fine.
+>> A nested quote.
 
 ```
 > This is a blockquote.
@@ -47,8 +48,9 @@ line will also work fine.
 >
 > ### This is an H3 in a blockquote
 
-> A '>' before the first
+> A single '>' leading the first
 line will also work fine.
+>> A nested quote.
 ```
 
 ### Emphasize
