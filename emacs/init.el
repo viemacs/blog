@@ -7,3 +7,5 @@
   '(auto-save-file-name-transforms '((".*" "~/.emacs.d/autosave/" t)) )
   '(backup-directory-alist '((".*" . "~/.emacs.d/save")) ) )
 
+;; disable the menu bar
+(menu-bar-mode -1)
