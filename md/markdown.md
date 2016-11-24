@@ -128,9 +128,9 @@ def foo():
     pass
 ```
 Markdown source:
-<code>
+<pre><code>
 ```
 def foo():
     pass
 ```
-</code>
+</code></pre>
