@@ -12,12 +12,13 @@
    [default default default italic underline success warning error])
  '(auto-save-file-name-transforms (quote ((".*" "~/.emacs.d/autosave/" t))))
  '(backup-directory-alist (quote ((".*" . "~/.emacs.d/save"))))
- '(custom-enabled-themes (quote (wombat))))
+ '(custom-enabled-themes (quote (wombat)))
+ '(menu-bar-mode nil)
+ '(scroll-bar-mode nil)
+ '(tool-bar-mode nil))
 
 ;; remove the welcome message
 (setq inhibit-startup-message t)
-;; disable the menu bar
-;(menu-bar-mode -1)
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
