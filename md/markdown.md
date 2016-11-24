@@ -51,16 +51,62 @@ Or, if you prefer, __use two underscores instead__.
 ### List
 
 #### ul
-ul uses *, +, - to create.
+You can use *, +, - to create *li*, and *ul* is create automatically.
 
 * C/C++
 * Python
 * JavaScript
-+ li 1
-+ li 2
-- item 1
-- item 2
++ Bash
++ Haskell
+- Go
+- Java
 
+```
+* C/C++
+* Python
+* JavaScript
++ Bash
++ Haskell
+- Go
+- Java
+```
+
+Use number followed by dot '.' to create an *ol*.
+Empty line and 4 spaces and tab can create *p* inside an item.
+
+1. A list item.
+
+    With multiple paragraphs.
+
+2. Another item in the list
+
+```
+1. A list item.
+
+    With multiple paragraphs.
+
+2. Another item in the list
+```
+
+### Link
+
+This is an [example of inline link](https://github.com/viemacs/blog "With a title").
+```
+This is an [example of inline link](https://github.com/viemacs/blog "With a title").
+```
+
+These are examples of referenced links:
+[Github][1], [Google][2], [StackOverflow][SO].
+[1]: http://github.com/ "Github"
+[2]: http://google.com/ "Google"
+[SO]: http://stackoverflow.com/ "stack overflow"
+
+```
+[Github][1], [Google][2], [StackOverflow][SO].
+[1]: http://github.com/ "Github"
+[2]: http://google.com/ "Google"
+[SO]: http://stackoverflow.com/ "stack overflow"
+```
 
 ![](https://github.com/fluidicon.png)
 ```
