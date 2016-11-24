@@ -22,10 +22,9 @@ A Second Level Header
 ###### Level 6 Header
 ```
 
-Multiple empty lines (empty or only spaces and tabs) devide paragraphs.
+### Paragraphs and quotes.
 
-
-This is another paragraph.
+This is another paragraph. Empty line (empty or only spaces and tabs) devides paragraphs.
 
 '>' creates quotes.
 
@@ -33,7 +32,36 @@ This is another paragraph.
 > 
 > This is the second paragraph in the blockquote.
 >
-> ## This is an H2 in a blockquote
+> ### This is an H3 in a blockquote
+
+### Emphasize
+
+Some of these words *are emphasized*.
+Some of these words _are emphasized also_.
+Use two asterisks for **strong emphasis**.
+Or, if you prefer, __use two underscores instead__.
+
+```
+Some of these words *are emphasized*.
+Some of these words _are emphasized also_.
+Use two asterisks for **strong emphasis**.
+Or, if you prefer, __use two underscores instead__.
+```
+
+### List
+
+#### ul
+ul uses *, +, - to create.
+
+* C/C++
+* Python
+* JavaScript
+
++ li 1
++ li 2
+- item 1
+- item 2
+
 
 ![](https://github.com/fluidicon.png)
 ```
