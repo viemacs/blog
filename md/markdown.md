@@ -128,7 +128,9 @@ def foo():
     pass
 ```
 Markdown source:
->\`\`\`  
->def foo():  
->    pass  
->\`\`\`
+<code>
+```
+def foo():
+    pass
+```
+</code>
