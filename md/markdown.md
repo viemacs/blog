@@ -117,7 +117,9 @@ The format of image is like the link, just with an extra leading '!'.
 
 ### Code
 Backquote '`' is used to quote code, and more backquotes can wrap less backquotes inside it.
+
 Code in line `function(){}`: `` `function(){}` ``.
+
 And ``let foo = `Das ist ${value}` ``: ``` ``let foo = `Das ist ${value}` `` ```.
 
 Code block:
