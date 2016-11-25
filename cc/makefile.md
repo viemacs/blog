@@ -1,3 +1,8 @@
+## Make Basic
+*make* is designed to manage the compiling process based on dependencies. The other functions of make is designed to make it easier to write Makefile.
+
+- - -
+
 When we deal with a complex project, there might be lots of source files, header files, lib files, target files.
 The files have a certain dependency relationship.
 
@@ -89,23 +94,14 @@ test.o: test.c
 
 Suffix dependency is very handy is big projects.
 
+### Misc
 
+Special dependency in makefile.
 
-### 其他
+all: if *make* was followed by no filename, "all" will be chosen.
 
-makefile的续行符为\
+clean: it is used to clean legacy files.
 
-makefile中经常会定义下面依赖关系:
-
-all:
-
-如果make后没有跟随文件名，那么将执行该依赖关系。
-
-clean:
-
-常用于清理历史文件。
-
- 
 ```
 CC = gcc
 
@@ -119,7 +115,6 @@ CC = gcc
 all: helloworld
         @echo "ALL"
 
-# helloworld is a binary file
 helloworld: test.o
         @echo $@
         $(CC) -o $@ $^
@@ -129,13 +124,5 @@ test.o: test.c
 clean:
         -rm helloworld *.o
 ```
-
-注意: echo前面的@和rm前面的-。@后的命令将不显示命令本身。-后面的命令将忽略错误(比如删除不存在的文件)。
-
- 
-
-总结
-
-make的核心功能是根据依赖关系来实现编译管理。
-
-make的其他功能是让用户可以更加便捷的写出makefile。
+'@' will hide the following command itself.
+'-' will ignore the stderr of the following command.
