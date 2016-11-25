@@ -23,6 +23,7 @@ document.getElementById('content').addEventListener('click', function(evt) {
         return;
     console.log(target.href);
 });
+```
 
 ### Re-Render
 The source files create 2 trees in browser: DOM tree and Render tree.
