@@ -131,6 +131,27 @@ The definition of referenced links do not appear in DOM.
 
 The benefit of referenced links are not writability, but readability.
 
+#### Anchor
+([Ref](http://stackoverflow.com/questions/5319754/cross-reference-named-anchor-in-markdown))
+
+```
+Take me to [pookie](#pookie)
+```
+should be the correct markdown syntax to jump to the anchor point named pookie.
+
+To insert an anchor point of that name use HTML:
+```
+<a name="pookie"></a>
+```
+Markdown doesn't seem to mind where you put the anchor point. A useful place to put it is in a header. For example:
+
+```
+\### <a name="tith"></a>This is the Heading
+```
+
+Note: in html5 'id' creates a global variable, so 'name' is more friendly.
+
+
 ### Image
 The format of image is like the link, just with an extra leading '!'.
 ![](https://github.com/fluidicon.png "Octocat")
