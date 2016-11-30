@@ -60,6 +60,7 @@ print(genHuffman(symbol, counts).result())
 # u	1	00111
 # x	1	10010
 
-# symbol = ['space','a','e','f','h','i','m','n','s','t','l','o','p','r','u','x']
-# counts = [7, 4, 4, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1] 
-# genHuffman(symbol, counts)[0].result()
+symbol = ['space','a','e','f','h','i','m','n','s','t','l','o','p','r','u','x']
+counts = [7, 4, 4, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1]
+for e in sorted(genHuffman(symbol, counts).result(), key = lambda x:x[1], reverse = True):
+    print (e[0], e[1], e[2])
