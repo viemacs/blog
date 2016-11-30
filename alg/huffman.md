@@ -12,6 +12,8 @@ Shanno-Fano encoding goes from root to leaves, but Huffman encoding goes from le
 3. The last one node is the root.
 
 
+> [pseudo code from csdn abcjennifer](http://blog.csdn.net/abcjennifer/article/details/8020695)
+
 ```
 count frequencies of single characters
 print(frequencies using Fibonacci Codes of degree 2)
