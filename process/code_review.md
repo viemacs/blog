@@ -7,6 +7,8 @@ http://blog.csdn.net/haoel/article/details/4469526
 
 http://blog.csdn.net/haoel/article/details/4469462
 
+http://www.cnblogs.com/lhb25/p/15-best-code-review-tools-for-developers.html
+
 Code Review中的几个提示
 
 陈皓
