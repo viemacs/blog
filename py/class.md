@@ -6,7 +6,7 @@
 - `__call__(self, *args, **kwargs)`
     作用：重载括号运算符。类实现了call方法，则其对象可当作函数使用。
 
-```
+```python
 class Bar(object):
     def __init__(self, *args, **kwargs):
         print('init')
@@ -29,3 +29,11 @@ init
 call
 ```
 
+单例的例子：
+```python
+class MySingleton(object):
+    def __new__(cls, *args, **kwargs):
+        if not '_instance' in vars(cls):
+        cls._instance = super(MySingleton, cls).__new__(cls, *args, **kwargs)
+    return cls._instance
+```
